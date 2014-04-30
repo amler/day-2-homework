@@ -1,0 +1,403 @@
+/* find a similar font top stuff should be full not chopped. can change color leave off icons
+no icon stuf unles you want to.
+do hover state. blue overlays make as wide as 25%
+text css
+create a zip file and upload to basecamp
+text overlay on top of bottom images tomorrow morning by 8am
+
+*/
+
+/* My header container*/
+
+body {
+	font-family: 'Oswald', 'sans-serif';
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: #fff;
+	font-family: 'PT Sans Caption', 'sans-serif';
+	font-size: 600%;
+	font-weight: 400;
+	letter-spacing: -3px;
+	margin: 0;
+	padding: 0;
+	text-shadow: 0px 2px 2px #242F48;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #083452;
+	font-family: 'Oswald', 'sans-serif';
+	font-size: 400%;
+	font-weight: 400;
+	letter-spacing: -1px;
+	line-height: 112%;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+h3 {
+	clear:both;
+	color: #083452;
+	border-top: 1px solid #e1e7ea;
+	font-family: 'Oswald', 'sans-serif';
+	font-size: 400%;
+	font-weight: 400;
+	letter-spacing: -1px;
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p {
+	clear: left;
+	color: #666;
+	font-family: 'PT Sans Caption', 'sans-serif';
+	font-size: 100%;
+	font-weight: 400;
+	line-height: 165%;
+	margin-top: 0px;
+	margin-bottom: 9px;
+}
+
+a {
+	color: #a3b3bf;
+}
+a:hover,
+a:active {
+	color: #106db3;
+}
+
+.header {
+	background-image: url(./img/headerlandscape.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	height: 523px;
+	position: relative;
+}
+
+/*relative to header?*/
+.nav {
+	margin: 0 auto;
+	position: relative;
+	width: 990px;
+	z-index: 2;
+}
+.nav > img {
+	float: left;
+	margin: 10px 13px 0px;
+}
+
+.nav img:last-child {
+	float: right;
+	margin-left: 10px;
+	padding-top: 4px;
+}
+
+.nav p {
+	color: #083452;
+	display: inline-block;
+	font-family: 'PT Sans Caption', 'sans-serif';
+	font-size: 120%;
+	font-weight: 400;
+	letter-spacing: -1px;
+	line-height: 100%;
+	margin: 25px 0 0 0;
+	padding: 0;
+	text-transform: uppercase;
+}	
+
+.nav ul {
+	float: right;
+	margin-top: 17px;
+	padding: 0;
+}
+
+.nav ul li{
+	display: block;
+	float: left;
+	font-family: 'Oswald', 'sans-serif';
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.nav ul li a{
+	color: #083452;
+	display: inline-block;
+	margin-left: 15px;
+	padding: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.nav a:hover,
+.nav a:active {
+	color: white;
+}
+
+.header-text {
+	margin: 178px auto 0;
+	position: relative;
+	text-align: center;
+	width: 990px;
+	z-index: 1;
+}
+
+.header-text p {
+	color: #19486D;
+	font-family: 'PT Sans Caption', 'sans-serif';
+	/*surely there's a better way than below*/
+	margin-top: -20px; 
+}
+
+.overlay {
+	background: rgba(17, 117, 192, 0.75);
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+/* body container */
+.content {
+	margin: 0 auto;
+	padding: 0;
+	width: 978px;
+}
+/* left column*/
+.main-content {
+	float: left;
+	margin: 50px 0 0 0;
+	padding: 0 80px 69px 0;
+	width: 618px;
+}
+
+.main-content ul.icons {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main-content ul.icons li {
+	display: block;
+	float: left;
+	font-family: 'Oswald', 'sans-serif';
+	font-size: 12px;
+	font-weight: 400;
+	margin-right: 10px;
+	text-align: center;
+}
+.main-content ul.icons li a {
+	background-color: #a3b3bf;
+	color: #fff;
+	display: inline-block;
+	line-height: 30px;
+	height: 30px;
+	margin: 0px;
+	overflow: hidden;
+	padding: 0px;
+}
+.main-content ul.icons li.blue-icon a {
+	background-color: #106db3;
+}
+
+.main-content ul.icons li a img {
+	float: left;
+}
+
+.main-content ul.icons li a span {
+	display: inline-block;
+	float: left;
+	margin: 0;
+	padding: 0 20px 0 20px;
+}
+
+.main-content .author-published {
+	margin-top: 10px;
+	padding: 0;	
+}
+
+.main-content .author-published img {
+	border-radius: 20px;
+	display: inline-block;
+	float: left;
+	margin: 0px 10px 42px 4px;
+	width: 24px;
+}
+
+.main-content .author-published span {
+	color: #106db3;
+}
+
+.main-content .author-published p {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+blockquote.style {
+	border-left: 2px solid #d3d3d3;
+	color: #106db3;
+	font-family: 'PT Sans Caption', 'sans-serif';
+	font-size: 200%;
+	letter-spacing: -1px;
+	margin: 20px 0 23px 8px;
+	padding-left: 17px;
+	text-transform: uppercase;
+} 
+/* right column*/
+.side-content {
+	float: left;
+	margin: 50px 0 0 0;
+	padding: 0;
+	width: 278px;
+}
+.side-content .info img {
+	border-radius: 50px;
+	display: block;
+	margin: 15px auto;
+	padding: 0px;
+}
+
+.side-content .info span {
+	clear: both;
+	color: #106db3;
+	display: block;
+	margin: 15px 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.side-content .info ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.side-content .info ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.side-content .info ul li a {
+	text-decoration: none;
+}
+
+.ad {
+	margin: 40px 0;
+	text-align: right;
+}
+
+.sideheading h4 {
+	color: #106db3;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+.sideheading p {
+	color: #a3b3bf;
+}
+
+.boxes {
+	overflow: hidden;
+	width: 100%;
+}
+.box {
+	background-size: cover;
+	background-color: blue;
+	float: left;
+	height: 330px;
+	position: relative;
+	width: 25%;
+}
+.box div {
+	background: rgba(17, 117, 192, 0.75);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	/* BANGIN!*/
+	transition: background-color 0.4s, color 0.4s;
+
+}
+.box:hover div{
+	background: transparent;
+}
+
+.box strong {
+	bottom: 20px;
+	color: #083452;
+	display: block;
+	font-family: 'Oswald', 'sans-serif';
+	font-size: 200%;
+	font-weight: 400;
+	left: 20px;
+	position: absolute;
+	text-transform: uppercase;
+}
+.box:hover strong{
+	color: #fff;
+}
+
+.footer {
+	background-color: #083452;
+	overflow: hidden;
+	padding: 20px 0 20px 0;
+	width: 100%
+}
+
+.centered-footer {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 975px;
+}
+
+.centered-footer p {
+	color: #a3b3bf;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.centered-footer img {
+	margin-right: 10px;
+}
+
+.centered-footer p * {
+ vertical-align: middle;
+}
+
+.centered-footer ul {
+	float: right;
+	list-style: none;
+	margin: 4px 0 0 0;
+	padding: 0;
+}
+
+.centered-footer ul li {
+	border-left: 1px solid #a3b3bf;
+	float: left;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+.centered-footer ul li:first-child {
+	border-left: 0;
+	margin-left: 0;
+	padding-left: 0px;
+}
+
+.centered-footer ul li a {
+	text-decoration: none;
+}
+
+.centered-footer ul li a:hover {
+	color: #fff;
+}
