@@ -24,7 +24,7 @@ h2 {
 	font-size: 400%;
 	font-weight: 400;
 	letter-spacing: -1px;
-	line-height: 112%;
+	line-height: 109%;
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
@@ -152,7 +152,7 @@ a:active {
 /* left column*/
 .main-content {
 	float: left;
-	margin: 50px 0 0 0;
+	margin: 62px 0 0 0;
 	padding: 0 80px 69px 0;
 	width: 618px;
 }
