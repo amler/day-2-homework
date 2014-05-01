@@ -1,13 +1,4 @@
-/* find a similar font top stuff should be full not chopped. can change color leave off icons
-no icon stuf unles you want to.
-do hover state. blue overlays make as wide as 25%
-text css
-create a zip file and upload to basecamp
-text overlay on top of bottom images tomorrow morning by 8am
-
-*/
-
-/* My header container*/
+/* overall container styles*/
 
 body {
 	font-family: 'Oswald', 'sans-serif';
@@ -18,7 +9,7 @@ body {
 h1 {
 	color: #fff;
 	font-family: 'PT Sans Caption', 'sans-serif';
-	font-size: 600%;
+	font-size: 658%;
 	font-weight: 400;
 	letter-spacing: -3px;
 	margin: 0;
@@ -55,8 +46,8 @@ h3 {
 
 p {
 	clear: left;
-	color: #666;
-	font-family: 'PT Sans Caption', 'sans-serif';
+	color: #5e686f;
+	font-family: 'Lato', sans-serif;
 	font-size: 100%;
 	font-weight: 400;
 	line-height: 165%;
@@ -72,33 +63,36 @@ a:active {
 	color: #106db3;
 }
 
+/* header razzamatazz */
+
 .header {
-	background-image: url(./img/headerlandscape.jpg);
+	background-image: url(http://img.pandawhale.com/post-36939-HD-waves-gif-perfect-loop-wate-P9EF.gif);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 100% 100%;
+	background-size: cover;
 	height: 523px;
-	position: relative;
+
 }
 
-/*relative to header?*/
+ /* set height on overlay to cover completely. Got a weird split and I don't know why? */
+.overlay {
+	background-color: rgba(30,117,185, 0.70); 
+	height: 523px;
+}
+
 .nav {
 	margin: 0 auto;
-	position: relative;
 	width: 990px;
-	z-index: 2;
 }
 .nav > img {
 	float: left;
 	margin: 10px 13px 0px;
 }
-
 .nav img:last-child {
 	float: right;
-	margin-left: 10px;
+	margin-left: 6px;
 	padding-top: 4px;
 }
-
 .nav p {
 	color: #083452;
 	display: inline-block;
@@ -111,13 +105,11 @@ a:active {
 	padding: 0;
 	text-transform: uppercase;
 }	
-
 .nav ul {
 	float: right;
 	margin-top: 17px;
 	padding: 0;
 }
-
 .nav ul li{
 	display: block;
 	float: left;
@@ -125,7 +117,6 @@ a:active {
 	font-size: 18px;
 	font-weight: 400;
 }
-
 .nav ul li a{
 	color: #083452;
 	display: inline-block;
@@ -134,35 +125,24 @@ a:active {
 	text-decoration: none;
 	text-transform: uppercase;
 }
-
 .nav a:hover,
 .nav a:active {
 	color: white;
 }
 
 .header-text {
-	margin: 178px auto 0;
+	margin: 155px auto 0;
 	position: relative;
 	text-align: center;
 	width: 990px;
-	z-index: 1;
 }
 
 .header-text p {
 	color: #19486D;
 	font-family: 'PT Sans Caption', 'sans-serif';
-	/*surely there's a better way than below*/
-	margin-top: -20px; 
+	margin-top: -25px; 
 }
 
-.overlay {
-	background: rgba(17, 117, 192, 0.75);
-	bottom: 0;
-	left: 0;
-	position: absolute;
-	right: 0;
-	top: 0;
-}
 /* body container */
 .content {
 	margin: 0 auto;
