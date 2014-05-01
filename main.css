@@ -14,7 +14,7 @@ h1 {
 	letter-spacing: -3px;
 	margin: 0;
 	padding: 0;
-	text-shadow: 0px 2px 2px #242F48;
+	text-shadow: 0 2px 2px #242F48;
 	text-transform: uppercase;
 }
 
@@ -24,7 +24,7 @@ h2 {
 	font-size: 400%;
 	font-weight: 400;
 	letter-spacing: -1px;
-	line-height: 109%;
+	line-height: 110%;
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
@@ -51,8 +51,7 @@ p {
 	font-size: 100%;
 	font-weight: 400;
 	line-height: 165%;
-	margin-top: 0px;
-	margin-bottom: 9px;
+	margin-bottom: 27px;
 }
 
 a {
@@ -71,7 +70,6 @@ a:active {
 	background-position: center;
 	background-size: cover;
 	height: 523px;
-
 }
 
  /* set height on overlay to cover completely. Got a weird split and I don't know why? */
@@ -86,7 +84,7 @@ a:active {
 }
 .nav > img {
 	float: left;
-	margin: 10px 13px 0px;
+	margin: 10px 13px 0;
 }
 .nav img:last-child {
 	float: right;
@@ -132,14 +130,14 @@ a:active {
 
 .header-text {
 	margin: 155px auto 0;
-	position: relative;
 	text-align: center;
 	width: 990px;
 }
 
 .header-text p {
 	color: #19486D;
-	font-family: 'PT Sans Caption', 'sans-serif';
+	font-family: 'Asap', sans-serif;
+	line-height: 25px;
 	margin-top: -25px; 
 }
 
@@ -149,27 +147,27 @@ a:active {
 	padding: 0;
 	width: 978px;
 }
-/* left column*/
+/* left column */
 .main-content {
 	float: left;
-	margin: 62px 0 0 0;
+	margin: 63px 0 0 0;
 	padding: 0 80px 69px 0;
 	width: 618px;
 }
 
 .main-content ul.icons {
+	list-style: none;
 	margin: 0;
 	padding: 0;
-	list-style: none;
 }
 
 .main-content ul.icons li {
 	display: block;
 	float: left;
-	font-family: 'Oswald', 'sans-serif';
-	font-size: 12px;
+	font-family: 'Asap', sans-serif;
+	font-size: 14px;
 	font-weight: 400;
-	margin-right: 10px;
+	margin: -10px 10px 0 0;
 	text-align: center;
 }
 .main-content ul.icons li a {
@@ -178,9 +176,9 @@ a:active {
 	display: inline-block;
 	line-height: 30px;
 	height: 30px;
-	margin: 0px;
+	margin: 0;
 	overflow: hidden;
-	padding: 0px;
+	padding: 0;
 }
 .main-content ul.icons li.blue-icon a {
 	background-color: #106db3;
@@ -204,30 +202,35 @@ a:active {
 
 .main-content .author-published img {
 	border-radius: 20px;
-	display: inline-block;
 	float: left;
-	margin: 0px 10px 42px 4px;
-	width: 24px;
+	margin: 0 5px 37px 4px;
+	width: 22px;
 }
 
 .main-content .author-published span {
 	color: #106db3;
+	display: inline-block;
+	font-size: 80%;
+	margin-right: 15px;
 }
 
 .main-content .author-published p {
+	color: #a3b3bf;
 	float: left;
-	margin: 0;
+	font-family: 'Asap', sans-serif;
+	font-size: 90%;
+	margin: -2px;
 	padding: 0;
 }
 
-blockquote.style {
+blockquote.radical-dude {
 	border-left: 2px solid #d3d3d3;
 	color: #106db3;
-	font-family: 'PT Sans Caption', 'sans-serif';
+	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 200%;
 	letter-spacing: -1px;
-	margin: 20px 0 23px 8px;
-	padding-left: 17px;
+	margin: -7px 0 26px 8px;
+	padding: 7px 0 7px 17px;
 	text-transform: uppercase;
 } 
 /* right column*/
@@ -241,7 +244,7 @@ blockquote.style {
 	border-radius: 50px;
 	display: block;
 	margin: 15px auto;
-	padding: 0px;
+	padding: 0;
 }
 
 .side-content .info span {
@@ -304,7 +307,8 @@ blockquote.style {
 	height: 100%;
 	width: 100%;
 	/* BANGIN!*/
-	transition: background-color 0.4s, color 0.4s;
+	transition: background-color 0.4s, 
+				color 0.4s;
 
 }
 .box:hover div{
@@ -371,7 +375,7 @@ blockquote.style {
 .centered-footer ul li:first-child {
 	border-left: 0;
 	margin-left: 0;
-	padding-left: 0px;
+	padding-left: 0;
 }
 
 .centered-footer ul li a {
