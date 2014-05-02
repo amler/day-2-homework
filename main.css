@@ -355,7 +355,7 @@ blockquote.radical-dude {
 	font-size: 90%;
 	line-height: 50%;
  	overflow: hidden;
- 	padding: 30px 0 30px 0;
+ 	padding: 30px 0 20px 0;
  	width: 100%
  }
 
@@ -363,27 +363,32 @@ blockquote.radical-dude {
 	margin: 0 auto;
 	overflow: hidden;
 	width: 975px;
+	position: relative;
  }
 
 .centered-footer img {
+	float: left;
 	margin-right: 10px;
 }
 
 .centered-footer p {
 	color: #a3b3bf;
 	float: left;
+	display: inline-block;
 	margin-top: 0;
 	padding: 0;
+	position: absolute;
+	top: 10px;
 }
-
+/*
 .centered-footer p * {
  vertical-align: middle;
 }
-
+*/
 .centered-footer ul {
 	float: right;
 	list-style: none;
-	margin: 14px 0 0 0;
+	margin: 18px 0 0 0;
 	padding: 0;
 }
 
