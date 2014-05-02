@@ -350,28 +350,30 @@ blockquote.radical-dude {
 }
 
 .footer {
-	background-color: #083452;
-	overflow: hidden;
-	padding: 30px 0;
-	width: 100%
-}
+ 	background-color: #083452;
+	font-family: 'Asap', sans-serif;
+	font-size: 90%;
+	line-height: 50%;
+ 	overflow: hidden;
+ 	padding: 30px 0 30px 0;
+ 	width: 100%
+ }
 
 .centered-footer {
 	margin: 0 auto;
 	overflow: hidden;
 	width: 975px;
+ }
+
+.centered-footer img {
+	margin-right: 10px;
 }
 
 .centered-footer p {
 	color: #a3b3bf;
-	display: inline-block;
 	float: left;
-	margin: 0;
+	margin-top: 0;
 	padding: 0;
-}
-
-.centered-footer img {
-	margin-right: 10px;
 }
 
 .centered-footer p * {
@@ -380,10 +382,8 @@ blockquote.radical-dude {
 
 .centered-footer ul {
 	float: right;
-	font-family: 'Asap', sans-serif;
-	font-size: 90%;
 	list-style: none;
-	margin: 4px 0 0 0;
+	margin: 14px 0 0 0;
 	padding: 0;
 }
 
@@ -392,19 +392,18 @@ blockquote.radical-dude {
 	float: left;
 	margin-left: 10px;
 	padding-left: 10px;
-	padding-top: 0px;
 }
-
-.centered-footer ul li:first-child {
+ 
+ .centered-footer ul li:first-child {
 	border-left: 0;
 	margin-left: 0;
-	padding-left: 0;
+	padding-left: 0px;
 }
-
+ 
 .centered-footer ul li a {
 	text-decoration: none;
 }
-
+ 
 .centered-footer ul li a:hover {
 	color: #fff;
 }
