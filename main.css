@@ -20,7 +20,6 @@ h1 {
 
 h2 {
 	color: #083452;
-	font-family: 'Oswald', 'sans-serif';
 	font-size: 400%;
 	font-weight: 400;
 	letter-spacing: -1px;
@@ -34,13 +33,21 @@ h3 {
 	clear:both;
 	color: #083452;
 	border-top: 1px solid #e1e7ea;
-	font-family: 'Oswald', 'sans-serif';
 	font-size: 400%;
 	font-weight: 400;
-	letter-spacing: -1px;
-	margin: 0;
+	letter-spacing: -1px;	
+	margin: 0 0 10px 0;
 	padding: 20px;
 	text-align: center;
+	text-transform: uppercase;
+}
+
+h4 {
+	color: #106db3;
+	font-size: 110%;
+	letter-spacing: -1px;
+	margin: 0;
+	padding: 0;
 	text-transform: uppercase;
 }
 
@@ -155,6 +162,45 @@ a:active {
 	width: 618px;
 }
 
+.main-content .author-published {
+	margin-top: 10px;
+	padding: 0;	
+}
+
+.main-content .author-published img {
+	border-radius: 20px;
+	float: left;
+	margin: 0 5px 37px 4px;
+	width: 22px;
+}
+
+.main-content .author-published span {
+	color: #106db3;
+	display: inline-block;
+	font-size: 80%;
+	margin-right: 15px;
+}
+
+.main-content .author-published p {
+	color: #a3b3bf;
+	float: left;
+	font-family: 'Asap', sans-serif;
+	font-size: 90%;
+	margin: -2px;
+	padding: 0;
+}
+
+blockquote.radical-dude {
+	border-left: 2px solid #d3d3d3;
+	color: #106db3;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 200%;
+	letter-spacing: -1px;
+	margin: -7px 0 26px 8px;
+	padding: 7px 0 7px 17px;
+	text-transform: uppercase;
+} 
+
 .main-content ul.icons {
 	list-style: none;
 	margin: 0;
@@ -195,44 +241,6 @@ a:active {
 	padding: 0 20px 0 20px;
 }
 
-.main-content .author-published {
-	margin-top: 10px;
-	padding: 0;	
-}
-
-.main-content .author-published img {
-	border-radius: 20px;
-	float: left;
-	margin: 0 5px 37px 4px;
-	width: 22px;
-}
-
-.main-content .author-published span {
-	color: #106db3;
-	display: inline-block;
-	font-size: 80%;
-	margin-right: 15px;
-}
-
-.main-content .author-published p {
-	color: #a3b3bf;
-	float: left;
-	font-family: 'Asap', sans-serif;
-	font-size: 90%;
-	margin: -2px;
-	padding: 0;
-}
-
-blockquote.radical-dude {
-	border-left: 2px solid #d3d3d3;
-	color: #106db3;
-	font-family: 'PT Sans Caption', sans-serif;
-	font-size: 200%;
-	letter-spacing: -1px;
-	margin: -7px 0 26px 8px;
-	padding: 7px 0 7px 17px;
-	text-transform: uppercase;
-} 
 /* right column*/
 .side-content {
 	float: left;
@@ -243,7 +251,7 @@ blockquote.radical-dude {
 .side-content .info img {
 	border-radius: 50px;
 	display: block;
-	margin: 15px auto;
+	margin: 32px auto 9px;
 	padding: 0;
 }
 
@@ -251,22 +259,32 @@ blockquote.radical-dude {
 	clear: both;
 	color: #106db3;
 	display: block;
-	margin: 15px 0;
+	margin: 0;
 	padding: 0;
 	text-align: center;
 	text-transform: uppercase;
 }
 
 .side-content .info ul {
+	font-family: 'Asap', sans-serif;
+	font-size: 90%;
 	list-style: none;
-	margin: 0;
+	margin-top: -30px;
 	padding: 0;
 	text-align: center;
 }
 
 .side-content .info ul li {
+	border-left: 2px solid rgba(163, 179, 191, 0.16);
 	display: inline-block;
-	margin: 0 10px;
+	margin-left: 5px;
+	padding-left: 5px;
+}
+
+.side-content .info ul li:first-child {
+	border-left: 0;
+	margin-left: 0;
+	padding-left: 0;
 }
 
 .side-content .info ul li a {
@@ -274,25 +292,27 @@ blockquote.radical-dude {
 }
 
 .ad {
-	margin: 40px 0;
+	margin: 55px 0 40px;
 	text-align: right;
 }
 
-.sideheading h4 {
-	color: #106db3;
-	margin: 0;
-	padding: 0;
-	text-transform: uppercase;
+.ad a {
+	display: block;
+	font-size: 80%;
+	margin-top: -5px;
 }
 
 .sideheading p {
 	color: #a3b3bf;
+	font-size: 90%;
+	line-height: 170%;
+	margin: 5px 0;
 }
 
 .boxes {
-	overflow: hidden;
 	width: 100%;
 }
+
 .box {
 	background-size: cover;
 	background-color: blue;
@@ -309,8 +329,8 @@ blockquote.radical-dude {
 	/* BANGIN!*/
 	transition: background-color 0.4s, 
 				color 0.4s;
-
 }
+
 .box:hover div{
 	background: transparent;
 }
@@ -319,7 +339,6 @@ blockquote.radical-dude {
 	bottom: 20px;
 	color: #083452;
 	display: block;
-	font-family: 'Oswald', 'sans-serif';
 	font-size: 200%;
 	font-weight: 400;
 	left: 20px;
@@ -333,7 +352,7 @@ blockquote.radical-dude {
 .footer {
 	background-color: #083452;
 	overflow: hidden;
-	padding: 20px 0 20px 0;
+	padding: 30px 0;
 	width: 100%
 }
 
@@ -345,6 +364,7 @@ blockquote.radical-dude {
 
 .centered-footer p {
 	color: #a3b3bf;
+	display: inline-block;
 	float: left;
 	margin: 0;
 	padding: 0;
@@ -360,6 +380,8 @@ blockquote.radical-dude {
 
 .centered-footer ul {
 	float: right;
+	font-family: 'Asap', sans-serif;
+	font-size: 90%;
 	list-style: none;
 	margin: 4px 0 0 0;
 	padding: 0;
@@ -370,6 +392,7 @@ blockquote.radical-dude {
 	float: left;
 	margin-left: 10px;
 	padding-left: 10px;
+	padding-top: 0px;
 }
 
 .centered-footer ul li:first-child {
